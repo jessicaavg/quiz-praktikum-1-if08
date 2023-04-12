@@ -8,7 +8,14 @@
 	background-color: #292d36;
 	border-radius: 8px;
 }
+
+.form {
+    text-align: center;
+}
+
 .tampil {
+    margin-right: 50%;
+    color: #ffffff;
 	width: 100%;
     font-size: 35px;
 	height: 200px;
