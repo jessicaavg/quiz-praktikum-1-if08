@@ -10,6 +10,7 @@
 }
 .tampil {
 	width: 100%;
+    font-size: 35px;
 	height: 200px;
 	border:none;
 	background-color: transparent;
@@ -19,7 +20,7 @@
 
 .btninput {
     background-color: #39383d;
-    border: nonen;
+    border: none;
     border-radius: 20px;
 }
 
