@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.main {
+	width: 329px;
+	margin: auto;
+	background-color: #292d36;
+	border-radius: 8px;
+}
+.tampil {
+	width: 100%;
+	height: 200px;
+	border:none;
+	background-color: transparent;
+	margin-bottom: 10px;
+	border-radius:8px;
+}
+
+.btninput {
+    background-color: #39383d;
+    border: nonen;
+    border-radius: 20px;
+}
+
+#ijo{
+    color: #13d1b8;
+}
+
+#merah{
+    color: #d84e55;
+}
+
+.tombol {
+    font-size: 20px;
+	width: 75px;
+	height: 75px;
+	margin: 2px;
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+	background-color: transparent;
+}
