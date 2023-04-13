@@ -32,7 +32,7 @@ $('#lightmode-togle').change(() => {
     $('.tampil').css('color', '#f1ebdf');
     $('.btninput').css('background-color', '#39383d');
     $('.tombol').css('color', '#f1ebdf');
-	  $('#ijo').css('color', ' #13d1b8');
+    $('#ijo').css('color', ' #13d1b8');
     $('#ijo1').css('color', ' #13d1b8');
     $('#ijo2').css('color', ' #13d1b8');
     $('#ijo3').css('color', ' #13d1b8');
