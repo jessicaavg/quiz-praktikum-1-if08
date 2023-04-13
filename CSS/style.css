@@ -27,6 +27,7 @@ label::after {
   transition: 0.3s;
 }
 #lightmode-togle {
+  
   width: 0;
   height: 0;
   visibility: hidden;
@@ -78,7 +79,35 @@ label:active:after {
   color: #13d1b8;
 }
 
+#ijo1 {
+  color: #13d1b8;
+}
+
+#ijo2 {
+  color: #13d1b8;
+}
+
+#ijo3 {
+  color: #13d1b8;
+}
+
 #merah {
+  color: #d84e55;
+}
+
+#merah1 {
+  color: #d84e55;
+}
+
+#merah2 {
+  color: #d84e55;
+}
+
+#merah3 {
+  color: #d84e55;
+}
+
+#merah4 {
   color: #d84e55;
 }
 

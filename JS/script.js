@@ -19,13 +19,27 @@ $('#lightmode-togle').change(() => {
     $('.btninput').css('background-color', '#f1ebdf');
     $('.tombol').css('color', 'black');
     $('#ijo').css('color', ' #13d1b8');
+    $('#ijo1').css('color', ' #13d1b8');
+    $('#ijo2').css('color', ' #13d1b8');
+    $('#ijo3').css('color', ' #13d1b8');
     $('#merah').css('color', ' #d84e55');
+    $('#merah1').css('color', ' #d84e55');
+    $('#merah2').css('color', ' #d84e55');
+    $('#merah3').css('color', ' #d84e55');
+    $('#merah4').css('color', ' #d84e55');
   } else {
     $('.main').css({ 'background-color': '#292d36' });
     $('.tampil').css('color', '#f1ebdf');
     $('.btninput').css('background-color', '#39383d');
     $('.tombol').css('color', '#f1ebdf');
-	$('#ijo').css('color', ' #13d1b8');
+	  $('#ijo').css('color', ' #13d1b8');
+    $('#ijo1').css('color', ' #13d1b8');
+    $('#ijo2').css('color', ' #13d1b8');
+    $('#ijo3').css('color', ' #13d1b8');
     $('#merah').css('color', ' #d84e55');
+    $('#merah1').css('color', ' #d84e55');
+    $('#merah2').css('color', ' #d84e55');
+    $('#merah3').css('color', ' #d84e55');
+    $('#merah4').css('color', ' #d84e55');
   }
 });
