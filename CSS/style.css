@@ -8,6 +8,7 @@ label {
   height: 50px;
   position: relative;
   display: block;
+  margin-left: 35%;
   background-color: #292d36;
   border-radius: 200px;
   box-shadow: inset 0px -5px 15px rgba(255, 255, 255, 0.4), inset 0px 5px 15px rgba(0, 0, 0, 0.4);
@@ -26,8 +27,8 @@ label::after {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
   transition: 0.3s;
 }
+
 #lightmode-togle {
-  
   width: 0;
   height: 0;
   visibility: hidden;
@@ -46,6 +47,7 @@ label:active:after {
   width: 50px;
 }
 /* akhir perubahan */
+
 .main {
   width: 329px;
   margin: auto;
@@ -60,13 +62,14 @@ label:active:after {
 .tampil {
   margin-right: 50%;
   color: #f1ebdf;
-  width: 100%;
+  width: 95%;
   font-size: 35px;
   height: 200px;
   border: none;
   background-color: transparent;
   margin-bottom: 10px;
   border-radius: 8px;
+  text-align: right;
 }
 
 .btninput {
