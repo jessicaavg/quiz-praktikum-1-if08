@@ -1,5 +1,5 @@
 <h1>Quiz 1 Pemrograman Web</h1>
----
+
 
 | Name  | Age |
 | ----- | --- |
