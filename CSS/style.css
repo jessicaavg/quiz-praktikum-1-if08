@@ -1,51 +1,94 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
+/* perubahan */
+label {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  display: block;
+  background-color: #292d36;
+  border-radius: 200px;
+  box-shadow: inset 0px -5px 15px rgba(255, 255, 255, 0.4), inset 0px 5px 15px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: 0.3s;
+}
+label::after {
+  content: '';
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: 180px;
+  background: linear-gradient(180deg, #777, #3a3a3a);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+}
+#lightmode-togle {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+#lightmode-togle:checked + label {
+  background: #ffffff;
+}
+
+#lightmode-togle:checked + label:after {
+  left: 90px;
+  transform: translateX(-100%);
+  background: linear-gradient(180deg, #ffcc89, #d8860b);
+}
+
+label:active:after {
+  width: 50px;
+}
+/* akhir perubahan */
 .main {
-	width: 329px;
-	margin: auto;
-	background-color: #292d36;
-	border-radius: 8px;
+  width: 329px;
+  margin: auto;
+  background-color: #292d36;
+  border-radius: 8px;
 }
 
 .form {
-    text-align: center;
+  text-align: center;
 }
 
 .tampil {
-    margin-right: 50%;
-    color: #ffffff;
-	width: 100%;
-    font-size: 35px;
-	height: 200px;
-	border:none;
-	background-color: transparent;
-	margin-bottom: 10px;
-	border-radius:8px;
+  margin-right: 50%;
+  color: #f1ebdf;
+  width: 100%;
+  font-size: 35px;
+  height: 200px;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 10px;
+  border-radius: 8px;
 }
 
 .btninput {
-    background-color: #39383d;
-    border: none;
-    border-radius: 20px;
+  background-color: #39383d;
+  border: none;
+  border-radius: 20px;
 }
 
-#ijo{
-    color: #13d1b8;
+#ijo {
+  color: #13d1b8;
 }
 
-#merah{
-    color: #d84e55;
+#merah {
+  color: #d84e55;
 }
 
 .tombol {
-    font-size: 20px;
-	width: 75px;
-	height: 75px;
-	margin: 2px;
-	color: #fff;
-	border: none;
-	border-radius: 8px;
-	background-color: transparent;
+  font-size: 20px;
+  width: 75px;
+  height: 75px;
+  margin: 2px;
+  color: #f1ebdf;
+  border: none;
+  border-radius: 8px;
+  background-color: transparent;
 }

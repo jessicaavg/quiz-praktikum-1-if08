@@ -1,61 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz - Calculator</title>
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
     <div class="main">
-        <form name="form">
-            <input class="tampil">
-        </form>
-
-        <div class="btninput">
-            <table>
-                <tr>
-                    <td><input class="tombol" id="ijo" type="button" value="AC" onclick="AC()"></td>
-                    <td><input class="tombol" id="ijo" type="button" value="^" onclick="insrt('**')"></td>
-                    <td><input class="tombol" id="ijo" type="button" value="%" onclick="insrt('/100')"></td>
-                    <td><input class="tombol" id="merah" type="button" value="÷" onclick="insrt('/')"></td>
-                </tr>
-                <tr>
-                    <td><input class="tombol" type="button" value="7" onclick="insrt(7)"></td>
-                    <td><input class="tombol" type="button" value="8" onclick="insrt(8)"></td>
-                    <td><input class="tombol" type="button" value="9" onclick="insrt(9)"></td>
-                    <td><input class="tombol" id="merah" type="button" value="X" onclick="insrt('*')"></td>
-                </tr>
-                <tr>
-                    <td><input class="tombol" type="button" value="4" onclick="insrt(4)"></td>
-                    <td><input class="tombol" type="button" value="5" onclick="insrt(5)"></td>
-                    <td><input class="tombol" type="button" value="6" onclick="insrt(6)"></td>
-                    <td><input class="tombol" id="merah" type="button" value="-" onclick="insrt('-')"></td>
-                </tr>
-                <tr>
-                    <td><input class="tombol" type="button" value="1" onclick="insrt(1)"></td>
-                    <td><input class="tombol" type="button" value="2" onclick="insrt(2)"></td>
-                    <td><input class="tombol" type="button" value="3" onclick="insrt(3)"></td>
-                    <td><input class="tombol" id="merah" type="button" value="+" onclick="insrt('+')"></td>
-                </tr>
-                <tr>
-                    <td><input class="tombol" type="button" value="<-" onclick="del()"></td>
-                    <td><input class="tombol" type="button" value="0" onclick="insrt(0)"></td>
-                    <td><input class="tombol" type="button" value="." onclick="insrt('.')"></td>
-                    <td><input class="tombol" id="merah" type="button" value="=" onclick="eql()"></td>
-                </tr>
-            </table>
-        </div>
-        
-
+      <!-- perubahan dari sini menambahkan toggle -->
+      <input type="checkbox" id="lightmode-togle" />
+      <label for="lightmode-togle"></label>
+      <form name="form">
+        <input class="tampil" />
+      </form>
+      <div class="btninput">
+        <table>
+          <tr>
+            <td><input class="tombol" id="ijo" type="button" value="AC" onclick="AC()" /></td>
+            <td><input class="tombol" id="ijo" type="button" value="^" onclick="insrt('**')" /></td>
+            <td><input class="tombol" id="ijo" type="button" value="%" onclick="insrt('/100')" /></td>
+            <td><input class="tombol" id="merah" type="button" value="÷" onclick="insrt('/')" /></td>
+          </tr>
+          <tr>
+            <td><input class="tombol" type="button" value="7" onclick="insrt(7)" /></td>
+            <td><input class="tombol" type="button" value="8" onclick="insrt(8)" /></td>
+            <td><input class="tombol" type="button" value="9" onclick="insrt(9)" /></td>
+            <td><input class="tombol" id="merah" type="button" value="X" onclick="insrt('*')" /></td>
+          </tr>
+          <tr>
+            <td><input class="tombol" type="button" value="4" onclick="insrt(4)" /></td>
+            <td><input class="tombol" type="button" value="5" onclick="insrt(5)" /></td>
+            <td><input class="tombol" type="button" value="6" onclick="insrt(6)" /></td>
+            <td><input class="tombol" id="merah" type="button" value="-" onclick="insrt('-')" /></td>
+          </tr>
+          <tr>
+            <td><input class="tombol" type="button" value="1" onclick="insrt(1)" /></td>
+            <td><input class="tombol" type="button" value="2" onclick="insrt(2)" /></td>
+            <td><input class="tombol" type="button" value="3" onclick="insrt(3)" /></td>
+            <td><input class="tombol" id="merah" type="button" value="+" onclick="insrt('+')" /></td>
+          </tr>
+          <tr>
+            <td><input class="tombol" type="button" value="<-" onclick="del()" /></td>
+            <td><input class="tombol" type="button" value="0" onclick="insrt(0)" /></td>
+            <td><input class="tombol" type="button" value="." onclick="insrt('.')" /></td>
+            <td><input class="tombol" id="merah" type="button" value="=" onclick="eql()" /></td>
+          </tr>
+        </table>
+      </div>
     </div>
-    
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js" 
-            integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" 
-            crossorigin="anonymous">
-    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <script src="JS/script.js"></script>
-</body>
+  </body>
 </html>
