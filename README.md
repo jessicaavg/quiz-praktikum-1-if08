@@ -1,7 +1,7 @@
 <h1>Quiz 1 Pemrograman Web</h1>
 
 
-| Name  | Age |
+| Name  | NIM |
 | ----- | --- |
 | Fahrul Fuguh Verdian   | 21.11.4331  |
 | Gatan Inandarko | 21.11.4351 |
