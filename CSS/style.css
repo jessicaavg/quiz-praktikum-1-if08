@@ -126,4 +126,5 @@ label:active:after {
   border: none;
   border-radius: 8px;
   background-color: transparent;
+  cursor: pointer;
 }
